@@ -1,0 +1,52 @@
+.container .form,.container .tasks{
+	list-style: none;
+	background-color: #eeeeee;
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 20px auto;
+	position: relative;
+}
+.container .form{
+	flex-direction: row;
+}
+.container .form input,.item{
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	outline: none;
+	padding: 10px;
+}
+.container .form .input{
+	min-width: 300px;
+}
+.container .form .add,.item button{
+	background-color: red;
+	color: white;
+}
+.container .tasks{
+	min-height: 40px;
+	min-width: 450px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.item{
+	min-width: 400px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+.item button{
+	font-size: 18px;
+	width: fit-content;
+	height: fit-content;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
